@@ -1,0 +1,26 @@
+
+„
+
+;
+android*http://schemas.android.com/apk/res/androidBmenu*ö
+íitem"o
+*http://schemas.android.com/apk/res/androidtitle@string/title_home"(áƒ„2
+‹‚Ìøstring/title_home0"‚
+*http://schemas.android.com/apk/res/androidicon@drawable/ic_home_black_24dp"(‚€„2'
+%¦œødrawable/ic_home_black_24dp0"o
+*http://schemas.android.com/apk/res/androidid@+id/navigation_home"(Ğ„2
+È‚¤øid/navigation_home0.*”
+‹item"y
+*http://schemas.android.com/apk/res/androidtitle@string/title_dashboard"(áƒ„2"
+ Š‚Ìøstring/title_dashboard0"Œ
+*http://schemas.android.com/apk/res/androidicon!@drawable/ic_dashboard_black_24dp"(‚€„2,
+*¥œø drawable/ic_dashboard_black_24dp0"y
+*http://schemas.android.com/apk/res/androidid@+id/navigation_dashboard"(Ğ„2#
+!Æ‚¤øid/navigation_dashboard03*®
+¥item"
+*http://schemas.android.com/apk/res/androidtitle@string/title_notifications"(áƒ„2&
+$Œ‚Ìøstring/title_notifications0"”
+*http://schemas.android.com/apk/res/androidicon%@drawable/ic_notifications_black_24dp"(‚€„20
+.±œø$drawable/ic_notifications_black_24dp0"
+*http://schemas.android.com/apk/res/androidid@+id/navigation_notifications"(Ğ„2'
+%É‚¤øid/navigation_notifications07B

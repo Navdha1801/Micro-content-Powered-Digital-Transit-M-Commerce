@@ -1,0 +1,120 @@
+{
+  "name": "coins",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "vQMr7NrAUf4m1svdbCsYj9",
+    "node": "13:41",
+    "version": "5143230413",
+    "component-id": "360129a7d3ee31888eb6e8778decb3eafbe53252"
+  },
+  "default": "Coins",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Frame 4"
+      },
+      {
+        "type": "text",
+        "id": "100 coins"
+      }
+    ],
+    "modes": {
+      "Coins": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "5.0",
+            "is-structured": "false",
+            "children": [
+              "Frame 4"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 4",
+            "padding": {
+              "left": "20.0",
+              "top": "15.0",
+              "right": "20.0",
+              "bottom": "15.0"
+            },
+            "border-radius": "20.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "3.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "100 coins"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "1.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "100 coins",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$NoOfCoinsWithWord",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "bottom",
+            "text-size": "16.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "NoOfCoinsWithWord": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Coins",
+      "size": {
+        "width": 105.0,
+        "height": 66.0
+      },
+      "parameters": {
+        "NoOfCoinsWithWord": "100 coins"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

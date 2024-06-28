@@ -1,0 +1,29 @@
+
+�
+;
+android*http://schemas.android.com/apk/res/android1
+4
+app'http://schemas.android.com/apk/res-auto1
+navigation"{
+'http://schemas.android.com/apk/res-autostartDestination@+id/navigation_home"(����2
+Ȃ��id/navigation_home0"s
+*http://schemas.android.com/apk/res/androidid@+id/mobile_navigation"(Ё�2 
+����id/mobile_navigation0*�
+�fragment"c
+*http://schemas.android.com/apk/res/androidname*com.example.prototype.ui.home.HomeFragment(���"o
+*http://schemas.android.com/apk/res/androidid@+id/navigation_home"(Ё�2
+Ȃ��id/navigation_home0"o
+*http://schemas.android.com/apk/res/androidlabel@string/title_home"(���2
+����string/title_home00*�
+�fragment"m
+*http://schemas.android.com/apk/res/androidname4com.example.prototype.ui.dashboard.DashboardFragment(���"y
+*http://schemas.android.com/apk/res/androidid@+id/navigation_dashboard"(Ё�2#
+!Ƃ��id/navigation_dashboard0"y
+*http://schemas.android.com/apk/res/androidlabel@string/title_dashboard"(���2"
+ ����string/title_dashboard05*�
+�fragment"u
+*http://schemas.android.com/apk/res/androidname<com.learnperk.prototype.ui.notifications.NotificationsFragment(���"�
+*http://schemas.android.com/apk/res/androidid@+id/navigation_notifications"(Ё�2'
+%ɂ��id/navigation_notifications0"�
+*http://schemas.android.com/apk/res/androidlabel@string/title_notifications"(���2&
+$����string/title_notifications091

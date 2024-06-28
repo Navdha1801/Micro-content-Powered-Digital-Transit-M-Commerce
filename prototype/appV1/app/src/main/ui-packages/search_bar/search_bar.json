@@ -1,0 +1,142 @@
+{
+  "name": "search_bar",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "vQMr7NrAUf4m1svdbCsYj9",
+    "node": "13:40",
+    "version": "5143230413",
+    "component-id": "acf1ae3c12e3511679acf558527c57acdbc915de"
+  },
+  "default": "SearchBar",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Frame 5"
+      },
+      {
+        "type": "image",
+        "id": "tabler-icon-search 1"
+      },
+      {
+        "type": "text",
+        "id": "City waterfronts with bridges"
+      }
+    ],
+    "modes": {
+      "SearchBar": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "87.0",
+            "is-structured": "false",
+            "children": [
+              "Frame 5"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 5",
+            "padding": {
+              "left": "7.0",
+              "top": "8.0",
+              "bottom": "8.0"
+            },
+            "border-radius": "25.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "343.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "46.0"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "tabler-icon-search 1",
+              "City waterfronts with bridges"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.14102564102564105",
+              "value": "0.3058823529411765"
+            }
+          },
+          {
+            "id": "tabler-icon-search 1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "26.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "22.0"
+              }
+            },
+            "image-content": "tabler_icon_search_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "City waterfronts with bridges",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "247.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "30.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.01612903225806446",
+              "value": "0.7294117647058823"
+            },
+            "text-content": "$SearchQuery",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "SearchQuery": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "SearchBar",
+      "size": {
+        "width": 343.0,
+        "height": 46.0
+      },
+      "parameters": {
+        "SearchQuery": "City waterfronts with bridges"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

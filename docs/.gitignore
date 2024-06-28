@@ -1,0 +1,8 @@
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+!Project Synopsis(TEAM-45).doc
+!StatusTracker.xls
+!team_45_projectsynopsis.pdf
+!team_45_projectplan.pdf

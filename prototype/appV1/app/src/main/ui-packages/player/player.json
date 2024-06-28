@@ -1,0 +1,76 @@
+{
+  "name": "player",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "vQMr7NrAUf4m1svdbCsYj9",
+    "node": "13:43",
+    "version": "5143230413",
+    "component-id": "626a067a39e03c49030ea61dbf2756694071b0d7"
+  },
+  "default": "Player",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "Main Video 2"
+      }
+    ],
+    "modes": {
+      "Player": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Main Video 2"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Main Video 2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "$SampleImage",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "SampleImage": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Player",
+      "size": {
+        "width": 335.0,
+        "height": 181.0
+      },
+      "parameters": {
+        "SampleImage": "main_video_2.png"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

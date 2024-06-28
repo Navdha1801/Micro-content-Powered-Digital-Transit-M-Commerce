@@ -1,0 +1,159 @@
+{
+  "name": "user",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "vQMr7NrAUf4m1svdbCsYj9",
+    "node": "13:42",
+    "version": "5143230413",
+    "component-id": "2004859fde735f0dfdaba690357fa19f0579936d"
+  },
+  "default": "User",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Frame 3"
+      },
+      {
+        "type": "group",
+        "id": "Frame 3_synth"
+      },
+      {
+        "type": "text",
+        "id": "L"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 1"
+      }
+    ],
+    "modes": {
+      "User": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Frame 3"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Frame 3_synth",
+              "L"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 3_synth",
+            "opacity": "100.0",
+            "padding": {
+              "left": "2.0",
+              "right": "2.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Ellipse 1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "L",
+            "margin": {
+              "left": "21.5384521484375",
+              "top": "16.99999237060547",
+              "right": "19.384624481201172",
+              "bottom": "3.0000076293945312"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$UserNameLetter",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Ellipse 1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "52.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "52.0"
+              }
+            },
+            "vector-content": "ellipse_1.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "UserNameLetter": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "User",
+      "size": {
+        "width": 52.0,
+        "height": 52.0
+      },
+      "parameters": {
+        "UserNameLetter": "L"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

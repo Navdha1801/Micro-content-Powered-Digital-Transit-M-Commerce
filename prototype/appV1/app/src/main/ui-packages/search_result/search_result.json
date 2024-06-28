@@ -1,0 +1,203 @@
+{
+  "name": "search_result",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "vQMr7NrAUf4m1svdbCsYj9",
+    "node": "40:333",
+    "version": "5143230413",
+    "component-id": "008534aaa76a9d91057a38f2cfea0d221b804863"
+  },
+  "default": "SearchResult",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Frame 8"
+      },
+      {
+        "type": "image",
+        "id": "Main Video 2"
+      },
+      {
+        "type": "group",
+        "id": "Frame 9"
+      },
+      {
+        "type": "text",
+        "id": "City WaterFalls 4kv osdijg rsd0g emkpkfe"
+      },
+      {
+        "type": "text",
+        "id": "MrBeast"
+      }
+    ],
+    "modes": {
+      "SearchResult": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Frame 8"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 8",
+            "padding": {
+              "left": "191.0",
+              "top": "10.0",
+              "right": "25.0",
+              "bottom": "10.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-44.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "619.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Main Video 2",
+              "Frame 9"
+            ],
+            "item-spacing": "13.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Main Video 2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "91.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "67.0"
+              }
+            },
+            "image-content": "$thumbnail",
+            "scale": "cover"
+          },
+          {
+            "id": "Frame 9",
+            "padding": {
+              "left": "5.0",
+              "right": "5.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "227.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "City WaterFalls 4kv osdijg rsd0g emkpkfe",
+              "MrBeast"
+            ],
+            "item-spacing": "13.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "City WaterFalls 4kv osdijg rsd0g emkpkfe",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "290.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "30.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$title",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "15.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          },
+          {
+            "id": "MrBeast",
+            "font-weight": "200.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.11764705882352941"
+            },
+            "text-content": "$user",
+            "overflow": "visible",
+            "text-size": "10.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "thumbnail": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "title": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "user": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "SearchResult",
+      "size": {
+        "width": 368.0,
+        "height": 109.0
+      },
+      "parameters": {
+        "thumbnail": "main_video_2.png",
+        "title": "City WaterFalls 4kv osdijg rsd0g emkpkfe\n",
+        "user": "MrBeast"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

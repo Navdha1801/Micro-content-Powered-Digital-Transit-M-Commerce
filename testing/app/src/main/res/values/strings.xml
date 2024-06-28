@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">transit1</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="button_name">LP</string>
+    <string name="search_vehicles">Search Buses</string>
+    <string name="enter_pickup">From</string>
+    <string name="enter_destination">To</string>
+    <string name="get_data">Data</string>
+</resources>
